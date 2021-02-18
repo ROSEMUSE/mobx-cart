@@ -77,7 +77,7 @@ class appleStore {
 
         let targetIndex = '';
         this.apples.forEach((apple, index) => {
-            if (apple.id == appleId) {
+            if (apple.id === appleId) {
                 targetIndex = index
             }
         });
