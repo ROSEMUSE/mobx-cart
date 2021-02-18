@@ -1,4 +1,4 @@
-import { observable, computed, action, autorun } from 'mobx';
+import { observable, computed, action } from 'mobx';
 
 
 class appleStore {

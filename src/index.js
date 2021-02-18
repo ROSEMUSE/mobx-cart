@@ -4,7 +4,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import apple from './stores/appleStore'
 import App from './components/AppleBasket';
-import { autorun } from 'mobx';
 import { Provider } from 'mobx-react';
 
 console.log(apple);
